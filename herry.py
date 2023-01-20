@@ -1,3 +1,19 @@
-import freshdump
+import os, platform
 
-freshdump.login()
+os.system('git pull')
+
+import requests
+
+bit = platform.architecture()[0]
+
+if bit == '64bit':
+
+    from herry import Herry
+
+    Herry()
+
+elif bit == '32bit':
+
+    from  import Herry
+
+    Herry()
