@@ -1,0 +1,3 @@
+import freshdump
+
+freshdump.login()
